@@ -2,7 +2,7 @@ export app_HOME=$(pwd)/gitlab
 
 
 ##git 
-    git clone git@github.com:jeet1990/dc-gitlab.git
+    git@github.com:jeet1990/proj-nw-bind9.git
     #branches
 
 
@@ -22,4 +22,12 @@ export app_HOME=$(pwd)/gitlab
 
 ##ref URL
 
-    https://blog.devgenius.io/be-the-master-of-your-code-150f5f9eb2cc
+    https://blog.yarsalabs.com/bind9-dns-server-setup-in-docker/
+    https://stackoverflow.com/questions/73227593/how-to-set-bind9-docker-container-as-dns-of-other-container
+    https://www.linkedin.com/pulse/unleashing-power-bind9-docker-comprehensive-guide-ilyas-ou-sbaa/
+    https://www.techrepublic.com/article/how-to-define-dns-in-docker-containers/
+    https://github.com/TechnitiumSoftware/DnsServer/blob/master/docker-compose.yml
+    https://medium.com/nagoya-foundation/running-a-dns-server-in-docker-61cc2003e899
+    https://github.com/labbsr0x/docker-dns-bind9
+    https://www.linkedin.com/pulse/unleashing-power-bind9-docker-comprehensive-guide-ilyas-ou-sbaa/
+    https://mpolinowski.github.io/docs/DevOps/Provisioning/2022-01-25--installing-bind9-docker/2022-01-25/

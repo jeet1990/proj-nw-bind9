@@ -13,3 +13,4 @@ $ORIGIN oc.local.
 ns IN A 10.25.53.223
 oc.local. IN A 10.25.53.223
 jfrog.oc.local. IN A 10.25.53.22
+jfrog2.oc.local. IN A 10.214.240.78
