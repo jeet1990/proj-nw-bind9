@@ -1,0 +1,15 @@
+$TTL 2d
+ 
+$ORIGIN oc.local.
+ 
+@      IN  SOA oc.local. ns.oc.local. (
+             2022052603  ; serial
+             12h     ; refresh
+             15m     ; retry
+             3w      ; expire
+             2h )     ; minimum TTL
+;
+@ IN NS ns.oc.local.
+ns IN A 10.25.53.223
+oc.local. IN A 10.25.53.223
+jfrog.oc.local. IN A 10.25.53.22
