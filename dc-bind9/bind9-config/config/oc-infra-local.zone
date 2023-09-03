@@ -1,0 +1,19 @@
+$TTL 2d
+
+$ORIGIN oc.infra.local.
+
+@   IN SOA  ns.oc.infra.local.  info.oc.infra.local. (
+
+)
+
+@         IN      SOA   ns.oc.infra.local. info.oc.infra.local. (
+                                0000000001 ; serial number
+                                12h        ; refresh
+                                15m        ; update retry
+                                3w         ; expiry
+                                2h         ; minimum
+                                )
+
+           IN      NS      ns.oc.infra.local.
+ns         IN      A       10.25.53.223
+oc         IN      A       10.25.53.240

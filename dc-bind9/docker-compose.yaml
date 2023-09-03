@@ -1,0 +1,31 @@
+
+version: '3.8'
+services:
+  bind9:
+    image: 'ubuntu/bind9:latest'
+    restart: unless-stopped
+    hostname: 'bind9-h'
+    container_name: 'nw-bind9-c'
+    environment:
+      - BIND9_USER=root
+      - TZ=Asia/Kolkata
+    # command: 
+    #   - '--config.file=/etc/prometheus/prometheus.yml'
+    # networks:
+    #   - gitlab
+    ports:
+      - '53:53/tcp'
+      - '53:53/udp'
+    volumes:
+      - '$APP_DC_HOMEDIR/bind9-config/config:/etc/bind'
+      - '$APP_DC_HOMEDIR/bind9-config/cache:/var/cache/bind'
+      - '$APP_DC_HOMEDIR/bind9-config/records:/var/lib/bind'
+
+
+# networks:
+#   gitlab: 
+#     name: gitlab-network
+
+# volumes:
+#   prometheus-v:
+#     name: prometheus-data
